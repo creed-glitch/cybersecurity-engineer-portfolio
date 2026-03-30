@@ -109,7 +109,7 @@ Threat Intelligence: {reputation}
 
         if bursts > 0:
             alert = f"""
-symbol Login Burst Detected
+⚠ Login Burst Detected
 Target User: {user}
 Source IP: {ip}
 Bursts Events: {bursts}
